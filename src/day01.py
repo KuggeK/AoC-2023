@@ -1,4 +1,5 @@
 import re
+
 from utils import read_file_lines
 
 NUMBER_STRINGS = {
@@ -33,7 +34,7 @@ def get_number_star2(line):
 
 
 def main():
-    filename = 'input01.txt'
+    filename = '../puzzleinputs/input01.txt'
     lines = read_file_lines(filename)
     star1_digits = []
     star2_digits = []
